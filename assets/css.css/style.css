@@ -1,0 +1,64 @@
+
+    body {
+        background-image: url(../train-pictures-23.jpg);
+    }
+    #header {
+        text-align: center;
+        background-color: lightblue;
+        border: 2px solid black;
+        border-radius: 12px;
+        padding: 12px;
+    }
+    tr:nth-child(even) {
+        background-color: lightgray;
+    }
+
+    td,
+    th {
+        padding: 10px;
+    }
+
+    #container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px;
+    }
+
+    table {
+
+        width: 100%;
+        padding: 20px;
+        border: 1px solid black;
+        text-align: left;
+        border-radius: 12px;
+        background-color: lightblue;
+    }
+
+    form {
+
+        width: 100%;
+        margin-top: 25px;
+        border: 1px solid black;
+        text-align: left;
+        border-radius: 12px;
+        background-color: burlywood;
+    }
+
+    input {
+        padding: 10px;
+        border-radius: 12px;
+        border: 1px solid;
+        width: 60%;
+        margin: 20px;
+    }
+
+    button {
+        display: block;
+        margin: 20px;
+        padding: 10px;
+        background-color: grey;
+        color: white;
+        border-radius: 12px;
+        border: 0px;
+        font-size: 14px;
+    }

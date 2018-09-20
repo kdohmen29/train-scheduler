@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Scheduler</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js'></script>
+    <link rel="stylesheet" href="assets/css.css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="header">Choo Choo Time</h1>
+        <table class="table">
+            <tr>
+                <th>Train Name</th>
+                <th>Destination</th>
+                <th>First Train Time</th>
+                <th>Frequency (min)</th>
+                <th>Next Arrival</th>
+                <th>Minutes Away</th>
+            </tr>
+            <tr>
+                <td>Trenton Express</td>
+                <td>Trenton</td>
+                <td>First Train Time</td>
+                <td>25</td>
+                <td>05:35 PM</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <form id="form">
+            <input required type="text" placeholder="Train Name" id="train-name">
+            <input required type="text" placeholder="Destination" id="destination">
+            <input required type="text" placeholder="First Train Time (HH:mm - military time)" id="first-train-time">
+            <input required type="text" placeholder="Frequency (min)" id="frequency">
+            <button type="submit">Add Train</button>
+        </form>
+    </div>
+    <script src="assets/javascript/apps.js"></script>
+
+</body>
+
+</html>
